@@ -49,11 +49,11 @@ button:hover {
 .floating-portraits img {
   position: absolute;
   width: 120px;
-  border-radius: 50%;
+  border-radius: 20%;
   animation: float 25s infinite linear;
 }
 
 @keyframes float {
   from { transform: translateX(-200px) translateY(0); }
-  to { transform: translateX(100vw) translateY(100vh); }
+  to { transform: translateX(10vw) translateY(10vh); }
 }
